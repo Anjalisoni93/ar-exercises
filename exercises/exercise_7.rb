@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+employee = Employee.create(first_name: 'Shivani')
+puts employee.valid?
+puts employee.errors.messages
